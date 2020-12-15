@@ -1,5 +1,7 @@
 # Prove it happened: A secure mission log for drones operating in adverse conditions and under scrutiny by the public and authorities
 
+[[URL](https://www.hackster.io/contests/hovergames2/hardware_applications/12825)]
+
 ## What problem are you going to solve?
 
 Pandemics divide and break societies. The more evident disruptions of the latest pandemic, like retail, education, air travel, and health care, obscure deep fault lines in the fabric of society, which took months into the pandemic to gape open. The street protests, the violent reactions for and against, the strong polarization of every conversation, the extreme entrenchment of political groups into diametrically opposite visions for the future are fueled into overdrive by the inexorable rise in the numbers of infections, deaths, broken lives, overt racism, job loss and deepening poverty. 
