@@ -58,8 +58,9 @@
 4. Fly with RC.  
 5. Dev environment, including PX4 clone.  
 6. Round trip of minimal app.  
-7. Video from camera.  
-8. Install NavQ and camera on top plate.  
-9. Explore autonomous flight.  
-
+   1. Data from FC, esp. GPS.  
+   2. Video from camera.  
+7. Install NavQ and camera on top plate.  
+8. Explore autonomous flight.  
+9. 
 
