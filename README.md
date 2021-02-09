@@ -51,12 +51,15 @@
    2. Guidelines:
       1. [Tutorial](https://www.hackster.io/AlexWulff/how-to-create-a-high-quality-project-tutorial-e25feb).  
       2. [Guidelines](https://www.hackster.io/guidelines).  
-   2. Review and submit [here](https://www.hackster.io/contests/239/entries/12676/submit).  
+   3. Compose cover image from [noun project](https://thenounproject.com/) icons.  
+   4. Review and submit [here](https://www.hackster.io/contests/239/entries/12676/submit).  
 1. Set up flight controller (Ground Control).  
+   1. Can I develop on MacOS?  
 2. Charge battery.  
 3. Connect to WiFi network.  
 4. Fly with RC.  
 5. Dev environment, including PX4 clone.  
+   1. Can I develop on MacOS?  
 6. Round trip of minimal app.  
    1. Data from FC, esp. GPS.  
    2. Video from camera.  
