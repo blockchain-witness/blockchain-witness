@@ -24,7 +24,7 @@
 
 ## Minimal application
 
-1. NavQ has WiFi/Bluetooth.  
+1. NavQ has WiFi/Bluetooth. The telemetry radio can also be used. Might be easier to transmit packets to the ground station at first.     
    1. How do they communicate?  
    2. What is the range?  
    3. Can I use the hotspot on my phone for field missions?  
