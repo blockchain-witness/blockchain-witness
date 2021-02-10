@@ -2,7 +2,7 @@
 
 1. [Application](hover-games-2-app.md)  
 2. Title: Blockchain Witness.  
-3. Synopsis: Tamper-resistant sufficient evidence of performed operations, involving secure randomized multi-route comm channel to the blockchain, in which packets are tagged with unique mission metadata, including GUID generators, two-way encryption keys, blockchain hashes, consensus-encoded unique environmental events, security hardware attributes, [GPSDO](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator) & variants.  
+3. Synopsis: Tamper-resistant sufficient evidence of performed operations, involving secure randomized multi-route comm channel to the blockchain, in which packets are tagged with unique mission metadata, including GUID/token generators, two-way encryption keys, blockchain hashes, consensus-encoded unique environmental events, security hardware attributes, [GPSDO](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator) & variants.  
 
 ## Comm channels
 
@@ -28,7 +28,7 @@
    1. How do they communicate?  
    2. What is the range?  
    3. Can I use the hotspot on my phone for field missions?  
-2. Tag.
+2. Tag/token.
    1. GPS location and timestamp.  
    2. GPS constellation info.  
 3. Path from sensor.  
@@ -43,6 +43,22 @@
 5. Evidence presentation.
    1. Read the blockchain and present the evidence (mission log, witness footage, etc.). 
    2. Watch and monitor live (connectivity permitting.
+   
+## Addons
+
+1. Comms:
+   1. LoRa.  
+   2. Iridium.  
+   3. GSM.  
+2. Vision:
+   1. Camera gimbal.
+3. Structural:
+   1. Landing gear.  
+   2. Vibration absorption.  
+4. Power:
+   1. Dual battery pack setup.  
+   2. 
+5. Autonomy.
    
 ## TODO
 
