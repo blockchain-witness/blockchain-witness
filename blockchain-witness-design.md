@@ -94,6 +94,14 @@ Security. NavQ has an impressive security stack which will be critical in closin
 Connectivity. The wide connectivity of the NavQ will be critical in capturing enough environmental and instantaneous information that can be verified and included into the secure mission log.
 The interference among the various communication devices, even if they work on different bands, might become a large enough issue.
 
+### Drone-to-vault transfer
+
+#### Notes
+
+1. [CAN](https://www.csselectronics.com/screen/page/simple-intro-to-can-bus/language/en) [logger](https://www.csselectronics.com/screen/page/can-logger-products) to sD card, possibly itself written in a tamper-proof manner based on blockchain fingerprints. _Requires manual step and a second device to read and transfer to vault._ 
+2. No-touch version where drone hardware is plugged in directly to Ethernet/Internet and does a secure transfer to vault. After successful transfer, can scramble-overwrite the sD card to leave no trace of evidence.  
+3. Secure CAN?  
+
 ### Schematic
 
 **[IMAGE - Block schematic]**
