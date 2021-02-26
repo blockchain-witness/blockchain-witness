@@ -18,7 +18,7 @@ Table of Contents
     * [LoRa communication](#lora-communication)
     * [NavQ](#navq)
     * [Vault-to-drone transfer](#drone-to-vault-transfer)
-    *  *[Notes](#notes)
+      * [Notes](#notes)
     * [Schematic](#schematic)
 
 ## Story
