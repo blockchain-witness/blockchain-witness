@@ -1,8 +1,10 @@
-# Blockchain Witness
+# Blockchain Witness Design
 
-[Hover Games 2 submission](https://www.hackster.io/ivogeorg/blockchain-witness-d0f902) on Hackster.io.
+_Based on [Hover Games 2 submission](https://www.hackster.io/ivogeorg/blockchain-witness-d0f902) on Hackster.io._ 
 
-**Abstract:** A randomized multi-channel tamper-proof path to the blockchain for transforming critical drone mission data into indisputable evidence.
+## Abstract
+
+A randomized multi-channel tamper-proof path to the blockchain for transforming critical drone mission data into indisputable evidence.
 
 **[IMAGE - Cover]**
 
@@ -10,6 +12,7 @@ Table of Contents
 =================
 
 * [Blockchain Witness](#blockchain-witness)
+  * [Abstract](#abstract)
   * [Story](#story)
     * [Blockchain Witness](#blockchain-witness-1)
     * [Exemplary Missions](#exemplary-missions)
