@@ -6,7 +6,7 @@ _Based on [Hover Games 2 submission](https://www.hackster.io/ivogeorg/blockchain
 
 A randomized multi-channel tamper-proof path to the blockchain for transforming critical drone mission data into indisputable evidence.
 
-<img src="/images/blockchain-witness-cover.png" width="400" />
+<img src="/images/blockchain-witness-cover.png" width="800" />
 
 Table of Contents
 =================
