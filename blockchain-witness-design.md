@@ -6,15 +6,15 @@ _Based on [Hover Games 2 submission](https://www.hackster.io/ivogeorg/blockchain
 
 A randomized multi-channel tamper-proof path to the blockchain for transforming critical drone mission data into indisputable evidence.
 
-**[IMAGE - Cover]**
+<img src="/images/blockchain-witness-cover.png" width="400" />
 
 Table of Contents
 =================
 
-* [Blockchain Witness](#blockchain-witness)
+* [Blockchain Witness Design](#blockchain-witness-design)
   * [Abstract](#abstract)
   * [Story](#story)
-    * [Blockchain Witness](#blockchain-witness-1)
+    * [Blockchain Witness](#blockchain-witness)
     * [Exemplary Missions](#exemplary-missions)
     * [System Overview](#system-overview)
     * [Satellite connection](#satellite-connection)
@@ -42,7 +42,7 @@ The application proposed three exemplary types of missions as a sufficient set o
   2. Public witness. For example, video footage of the attack on the Capitol is recorded by a drone and later used as evidence in court.  
   3. Adverse conditions. For example, a drone finds itself in adverse environmental situation (e.g. a sudden bout of inclement weather) and has to make a best attempt to complete the mission.  
 
-**[IMAGE - Sketch]**
+<img src="/images/blockchain-witness-hand-sketch.jpg" width="400" />
 
 ### System Overview
 
@@ -62,27 +62,27 @@ For the other two scenarios, instead of video footage, the strongly-encrypted an
 
 Drone missions are likely to take the craft outside of Bluetooth, WiFi, GSM, and LTE range. For this reason, the application requires global two-way satellite messaging. The RockBLOCK by Rock7 provides messaging using the Iridium satellite constellation.
 
-**[IMAGE - RockBLOCK & Package]**
+<img src="/images/rockblock-and-case.jpg" height="400" />  
 
 The application only sends and receives textual data and does not rely on a satellite connection for video footage or other heavy data transfer. Instead, it uses the NavQ security features to keep the data tamper-free on the NavQ until the data can be uploaded to a secure online vault. The application uses the satellite connection to securely log mission evidence and obtain blockchain fingerprints for the encrypted local data bound for the vault.
 
-**[IMAGE - RockBLOCK on wood block]**
+<img src="/images/rockblock-transmitting.jpg" height="400" />  
 
 The RockBLOCK sends messages to the Rock7 Core system, which can then forward to the vault service.
 
 The RockBLOCK takes 5V of power and communicates over 3.3V serial. It just fits next to the NavQ on the standoff plate, though it might need to be moved in the future for better load balancing.
 
-**[IMAGE - RockBLOCK & NavQ on addon plate]**
+<img src="/images/navq-and-rockblock-on-plate.jpg" height="400" />
 
 ### LoRa communication
 
 LoRa is quickly becoming the go-to choice for low-power long-distance radio communication for the Internet of Things. A recent product by SparkFun, the expLoRaBLE is a LoRa transceiver as well as an otherwise very versatile low-footprint low-power module. It contains a Bluetooth Low Energy module, a ultra low-power Apollo3 MCU and a I2C connector for daisy-chaining any number of sensors that can generate integrated evidence of obtained drone mission objectives.
 
-**[IMAGE - expLoRaBLE]**
+<img src="/images/explorable-with-i2c-sensor-daisy-chain.jpg" height="400" />
 
 The image shows an environmental, human presence, spectral, and IR sensors. The module can easily be mounted on the front plate, even if a camera gimbal will be installed in the future.
 
-**[IMAGE - expLoRaBLE on front plate]**
+<img src="/images/explorable-mounting-point.jpg" height="400" />
 
 The expLoRaBLE requires an antenna. The ordered antenna has a long enough cable to allow for mounting on the top plate, so the position of the module on the front plate will not be a problem.
 
@@ -109,5 +109,5 @@ The interference among the various communication devices, even if they work on d
 
 ### Schematic
 
-**[IMAGE - Block schematic]**
+<img src="/images/block-diagram.png" width="400" />
 
